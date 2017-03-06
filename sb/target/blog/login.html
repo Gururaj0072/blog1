@@ -1,0 +1,15 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<script src="scripts/config.js"></script>
+<script src="scripts/login.js"></script>
+<body ng-app="loginApp" ng-controller="loginCtrl">
+<h3>User authentication</h3>
+
+<form name="loginForm">
+Username : <input name="loginInput" ng-model="loginInput" required> <br/>
+Password : <input name="loginPassword" type="password" ng-model="loginPassword" required>
+</form>
+<button ng-click="myFunction()">Login</button>
+
+</body>
+</html>

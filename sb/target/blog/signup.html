@@ -1,0 +1,19 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<script src="scripts/config.js"></script>
+<script src="scripts/signup.js"></script>
+<body ng-app="signupApp" ng-controller="signupCtrl">
+<h3>User authentication</h3>
+
+<form name="loginForm">
+Username : <input name="loginInput" ng-model="loginInput" required> <br/>
+Password : <input name="loginPassword" type="password" ng-model="loginPassword" required><br/>
+Name     : <input name="name" ng-model="name" required> <br/>
+E-Mail   : <input name="email" ng-model="email" required> <br/>
+Ph-Number: <input name="phNumber" ng-model="phNumber" required> <br/>
+
+</form>
+<button ng-click="myFunction()">Login</button>
+
+</body>
+</html>

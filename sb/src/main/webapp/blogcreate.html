@@ -1,0 +1,15 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<script src="scripts/config.js"></script>
+<script src="scripts/blogcreate.js"></script>
+<body ng-app="blogCreateApp" ng-controller="blogCreateCtrl">
+<h3>Blog Submission</h3>
+
+<form name="loginForm">
+Title : <input name="blogTitle" ng-model="blogTitle" required> <br/>
+Content : <input name="blogContent" ng-model="blogContent" required>
+</form>
+<button ng-click="myFunction()">Create blog</button>
+
+</body>
+</html>
